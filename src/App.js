@@ -14,7 +14,7 @@ function App() {
   const getRandomRecipes = async () => {
     const { data } = await Axios({
       method: 'get',
-      url: `${process.env.API_URL}/recipes/random`,
+      url: `${process.env.REACT_APP_API_URL}/recipes/random`,
       params: {
         number: 6
       }
@@ -27,7 +27,7 @@ function App() {
       <h1>Caro Food</h1>
       <div>
         {
-          recipes.map((recipe, index) =>
+          recipes && recipes.map((recipe, index) =>
             <RecipeItem
               key={index}
               recipe={recipe}
