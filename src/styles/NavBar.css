@@ -1,0 +1,29 @@
+
+.navBarContainer{
+    width: 100%;
+    margin-top: 2px;
+    display: flex;
+    justify-content: center;
+    background-color: var(--second-color);
+
+}
+
+.navBarButton{
+    color: var(--first-color);
+    text-align: center;
+    width: 6rem;
+    height: 2rem;
+
+    background: linear-gradient(135deg, rgba(255,255,255,0.1),  rgba(255,255,255,0.1));
+    backdrop-filter: blur(21px);
+    -webkit-backdrop-filter: blur(21px);
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.36);
+    border:solid rgba(255,255,255,0.16);
+    border-radius: 24px;
+}
+
+.navBarInput{
+    width: 15rem;
+    height: 2rem;
+    border-radius: 10px;
+}

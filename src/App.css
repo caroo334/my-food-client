@@ -1,0 +1,22 @@
+body {
+  overflow-x: hidden;
+}
+
+.App {
+  text-align: center;
+  
+  background-image: url("https://images.pexels.com/photos/1640773/pexels-photo-1640773.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  /* background: rgb(2,0,36); */
+  /* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(159,37,125,0.40242034313725494) 100%); */
+  /* background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%); */
+  /* background-color: lightslategray; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  color: var(--text-color);
+}

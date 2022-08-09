@@ -1,0 +1,74 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --text-color: #0D1B2A;
+    --first-color: #E0E1DD;
+    --second-color: #1B263B;
+    --third-color: #415A77;
+    --optional: #778DA9;
+    /* --text-color:#f2e9e4;
+    --first-color:#22223b;
+    --second-color:#4a4e69;
+    --third-color:#9a8c98;
+    --optional: #c9ada7; */
+}
+
+.recipeTitle {
+    width: auto;
+    font-weight: bold;
+    padding: 10px;
+    border: solid 1px var(--second-color);
+    border-radius: 15px;
+    margin-top: 10px;
+    background-color: var(--second-color);
+    color: var(--first-color);
+
+}
+
+.recipeImg {
+    max-width: 300px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px var(--optional);
+}
+
+.recipeIngredients {
+    max-width: 300px;
+    text-align:left;
+    margin-left: 20px;
+    line-height: 30px;
+    color: var(--text-color);
+}
+
+.recipeInstruction {
+    font-weight: 400;
+    padding: 10px 25px 20px 25px;
+    text-align: justify;
+    color: var(--text-color);
+}
+
+.recipeItemContainer {
+    max-width: 900px;
+    border-radius: 15px;
+    margin: 20px;
+    /* background-color: var(--first-color); */
+    /* box-shadow: 0 0 15px var(--text-color); */
+
+    background: linear-gradient(135deg, rgba(255,255,255,0.1),  rgba(255,255,255,0.1));
+    backdrop-filter: blur(21px);
+    -webkit-backdrop-filter: blur(21px);
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.36);
+    border:solid rgba(255,255,255,0.16);
+    border-radius: 24px;
+    padding: 48px;
+}
+
+@media (min-width: 600px) {
+    .recipeImg{
+        min-width: 750px;
+    }
+}
