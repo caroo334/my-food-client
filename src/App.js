@@ -27,7 +27,7 @@ function App() {
       <h1>Caro Food</h1>
       <div>
         {
-          recipes && recipes.map((recipe, index) =>
+         recipes.map((recipe, index) =>
             <RecipeItem
               key={index}
               recipe={recipe}
